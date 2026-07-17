@@ -1,122 +1,118 @@
-VERSION 5.00
+Attribute VB_Name = "Form1"
+VERSION 5#
 Begin VB.Form Form1
-   BorderStyle     =   0
-   ClientHeight    =   90
-   ClientLeft      =   17235
-   ClientTop       =   9795
-   ClientWidth     =   90
+   BorderStyle = 0
+   ClientHeight = 90
+   CBlientLeft = 17235
+   ClientTop = 9795
+   ClientWidth = 90
    Icon            =   "Form1.frx":0000
-   LinkTopic       =   "Form1"
-   MaxButton       =   0
-   MinButton       =   0
-   ScaleHeight     =   90
-   ScaleWidth      =   90
-   ShowInTaskbar   =   0
-   StartUpPosition =   3
-   Visible         =   0
+   LinkTopic = "Form1"
+   MaxButton = 0
+   MinButton = 0
+   ScaleHeight = 90
+   ScaleWidth = 90
+   ShowInTaskbar = 0
+   StartUpPosition = 3
+   Visible = 0
    Begin VB.Timer Timer1
-      Enabled        =   0
-      Interval        =   100
-      Left            =   120
-      Top             =   120
+      Enabled = 0
+      Interval = 100
+      Left = 120
+      Top = 120
    End
    Begin VB.Timer Timer2
-      Enabled        =   0
-      Interval        =   100
-      Left            =   600
-      Top             =   120
+      Enabled = 0
+      Interval = 100
+      Left = 600
+      Top = 120
    End
    Begin VB.Timer Timer3
-      Enabled        =   0
-      Interval        =   1000
-      Left            =   1080
-      Top             =   120
+      Enabled = 0
+      Interval = 1000
+      Left = 1080
+      Top = 120
    End
    Begin VB.Timer Timer4
-      Enabled        =   0
-      Interval        =   100
-      Left            =   1560
-      Top             =   120
+      Enabled = 0
+      Interval = 100
+      Left = 1560
+      Top = 120
    End
    Begin VB.Timer Timer5
-      Enabled        =   0
-      Interval        =   100
-      Left            =   2040
-      Top             =   120
+      Enabled = 0
+      Interval = 100
+      Left = 2040
+      Top = 120
    End
    Begin VB.Timer Timer6
-      Enabled        =   0
-      Interval        =   5000
-      Left            =   2520
-      Top             =   120
+      Enabled = 0
+      Interval = 5000
+      Left = 2520
+      Top = 120
    End
    Begin VB.Timer Timer7
-      Enabled        =   0
-      Interval        =   100
-      Left            =   3000
-      Top             =   120
+      Enabled = 0
+      Interval = 100
+      Left = 3000
+      Top = 120
    End
    Begin VB.Timer Timer8
-      Enabled        =   0
-      Interval        =   100
-      Left            =   3480
-      Top             =   120
+      Enabled = 0
+      Interval = 100
+      Left = 3480
+      Top = 120
    End
    Begin VB.Timer Timer9
-      Enabled        =   0
-      Interval        =   100
-      Left            =   3960
-      Top             =   120
+      Enabled = 0
+      Interval = 100
+      Left = 3960
+      Top = 120
    End
    Begin VB.Timer Timer10
-      Enabled        =   0
-      Interval        =   10
-      Left            =   4440
-      Top             =   120
+      Enabled = 0
+      Interval = 10
+      Left = 4440
+      Top = 120
    End
    Begin VB.Timer Timer11
-      Enabled        =   0
-      Interval        =   100
-      Left            =   4920
-      Top             =   120
+      Enabled = 0
+      Interval = 100
+      Left = 4920
+      Top = 120
    End
    Begin VB.Timer Timer12
-      Enabled        =   0
-      Interval        =   1000
-      Left            =   5400
-      Top             =   120
+      Enabled = 0
+      Interval = 1000
+      Left = 5400
+      Top = 120
    End
    Begin VB.ListBox List1
-      Height         =   0
-      Left            =   0
-      TabIndex        =   0
-      Top             =   0
-      Visible         =   0
-      Width           =   0
+      Height = 0
+      Left = 0
+      TabIndex = 0
+      Top = 0
+      Visible = 0
+      Width = 0
    End
    Begin VB.ListBox List4
-      Height         =   0
-      Left            =   0
-      TabIndex        =   1
-      Top             =   0
-      Visible         =   0
-      Width           =   0
+      Height = 0
+      Left = 0
+      TabIndex = 1
+      Top = 0
+      Visible = 0
+      Width = 0
    End
    Begin VB.Frame Frame2
-      Caption         =   "Frame2"
-      Height          =   0
-      Left            =   0
-      TabIndex        =   2
-      Top             =   0
-      Visible         =   0
-      Width           =   0
+      Caption = "Frame2"
+      Height = 0
+      Left = 0
+      TabIndex = 2
+      Top = 0
+      Visible = 0
+      Width = 0
    End
 End
-Attribute VB_Name = "Form1"
-Attribute VB_GlobalNameSpace = False
-Attribute VB_Creatable = False
-Attribute VB_PredeclaredId = True
-Attribute VB_Exposed = False
 
 Option Explicit
 
